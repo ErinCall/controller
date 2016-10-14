@@ -6,6 +6,9 @@ SERIAL_PORT="/dev/kiibohd"
 AUTO_SCREEN_SESSION="/dev/kiibohd"
 NOSCREEN=0
 PROG_NAME=$(basename $0)
+pushd $(dirname $0) > /dev/null
+BASE_DIR=$(pwd)
+popd > /dev/null
 
 # Parse all the command line arguments
 while (( "$#" >= "1" )); do
@@ -67,7 +70,7 @@ if type dfu-util &>/dev/null; then
 		fi
 		sleep 0.1
 	done
-	dfu-util -D @TARGET_BIN@
+	dfu-util -D "$BASE_DIR/@TARGET_BIN@"
 	EXIT_STATUS=$?
 else
 	echo "dfu-util is required to reprogram the device"
