@@ -56,4 +56,4 @@ S0x28 : U"Right";
 S0x29 : U"Left";
 S0x2A : U"PageDown";
 S0x2B : U"PageUp";
-S0x2C : U"Lock2";
+S0x2C : U"Lock1";
