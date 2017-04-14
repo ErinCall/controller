@@ -6,7 +6,6 @@ KLL = 0.3c;
 # Modified Date
 Date = 2015-08-06;
 
-
 # Top Row
 S0x02 : U"Backtick";
 S0x03 : U"5";
@@ -17,7 +16,7 @@ S0x07 : U"1";
 S0x08 : U"Esc";
 
 # Top-Middle Row
-S0x0B : CONS["VOLUMEUP"];
+S0x0B : U"Backslash"; # placeholder
 S0x0C : U"Y";
 S0x0D : U"P";
 S0x0E : U"Period";
@@ -38,7 +37,7 @@ S0x1B : U"LAlt";
 S0x1C : U"LCtrl";
 
 # Bottom-Middle Row
-S0x1D : CONS["VOLUMEDOWN"];
+S0x1D : U"Backslash"; # placeholder
 S0x1E : U"X";
 S0x1F : U"K";
 S0x20 : U"J";
@@ -57,4 +56,4 @@ S0x28 : U"Right";
 S0x29 : U"Left";
 S0x2A : U"PageDown";
 S0x2B : U"PageUp";
-S0x2C : U"LGui";
+S0x2C : U"Lock2";

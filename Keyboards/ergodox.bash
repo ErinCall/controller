@@ -31,8 +31,8 @@ DefaultMap="mdergo1Overlay lcdFuncMap"
 # e.g.  PartialMaps[1]="layer1 layer1mod"
 #       PartialMaps[2]="layer2"
 #       PartialMaps[3]="layer3"
-PartialMaps[1]="iced_func"
-PartialMaps[2]="iced_numpad"
+PartialMaps[1]="functionLayer"
+PartialMaps[2]="qwertyOverlay"
 
 
 

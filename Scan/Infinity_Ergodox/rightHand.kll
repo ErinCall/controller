@@ -6,7 +6,6 @@ KLL = 0.3c;
 # Modified Date
 Date = 2015-08-06;
 
-
 # Top Row
 S0x02 : U"Equals";
 S0x03 : U"6";
@@ -17,7 +16,7 @@ S0x07 : U"0";
 S0x08 : U"Backslash";
 
 # Top-Middle Row
-S0x0B : CONS["SCANNEXTTRACK"];
+S0x0B : U"Backslash"; # placeholder
 S0x0C : U"F";
 S0x0D : U"G";
 S0x0E : U"C";
@@ -39,7 +38,7 @@ S0x1C : U"RCtrl";
 
 
 # Bottom-Middle Row
-S0x1D : CONS["PAUSEPLAY"];
+S0x1D : U"Backslash"; # placeholder
 S0x1E : U"B";
 S0x1F : U"M";
 S0x20 : U"W";
@@ -58,4 +57,4 @@ S0x28 : U"Up";
 S0x29 : U"Down";
 S0x2A : U"Left Brace";
 S0x2B : U"Right Brace";
-S0x2C : U"RGui";
+S0x2C : U"Function1";
